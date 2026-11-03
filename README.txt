@@ -1,22 +1,85 @@
-Aiitech Inquiry Dashboard - Setup
+# CRM Inquiry Dashboard
 
-1. Keep app.py and Aiitech_Inquiry_Tracking_Sample_60.xlsx in the same folder.
-2. Install Python 3.10+ from https://www.python.org/downloads/ if needed.
-3. Open VS Code, then File > Open Folder and select this folder.
-4. Open Terminal > New Terminal.
-5. Run:
-   python -m pip install -r requirements.txt
-6. Run:
-   python -m streamlit run app.py
-7. The dashboard opens in your browser. Use the sidebar filters or upload a different .xlsx file.
+A data-driven CRM dashboard built with Python and Streamlit to monitor inquiry pipelines, quotation progress, proposals, meetings, and deal outcomes.
 
-Excel format:
-- Sheet name: Inquiries
-- Required columns include Inquiry ID, Inquiry Date, Institute Name, Vertical,
-  Responsible Employee, Quotation Forwarded, Proposal Submitted,
-  ERP Meeting Booked, Deal Status.
+## Project Overview
 
-Important:
-- The workbook contains fictional demo data only.
-- Do not upload confidential client or employee information to an unapproved system.
-- ERP connection needs the company's approved API/export and access permissions.
+Managing client inquiries across multiple business verticals can make it difficult to track follow-ups, employee activity, and deal progress.
+
+This project provides an interactive dashboard to organize inquiry data and visualize the sales pipeline using an Excel dataset.
+
+## Dashboard Features
+
+- Total inquiry tracking
+- Weekly inquiry trend analysis
+- Inquiry distribution by business vertical
+- Employee-wise inquiry and activity analysis
+- Quotation and proposal tracking
+- ERP meeting status monitoring
+- Won, Lost, and Pending deal analysis
+- Pending follow-up list
+- Interactive filters and CSV export
+
+## Technology Stack
+
+- Python
+- Streamlit
+- Pandas
+- Plotly
+- OpenPyXL
+- Excel
+
+## Dashboard Preview
+
+_Add a screenshot of the running dashboard here._
+
+## Project Structure
+
+```text
+CRM-Inquiry-Dashboard/
+├── app.py
+├── requirements.txt
+├── README.md
+└── Aiitech_Inquiry_Tracking_Sample_60.xlsx
+```
+
+## How to Run
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Reniya-00/CRM-Inquiry-Dashboard.git
+cd CRM-Inquiry-Dashboard
+```
+
+### 2. Install dependencies
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+### 3. Run the dashboard
+
+```bash
+python -m streamlit run app.py
+```
+
+The application will open in your browser.
+
+## Data
+
+The repository currently uses fictional sample inquiry data for demonstration.
+
+The dashboard supports uploading an Excel workbook containing inquiry information. ERP integration is a potential future enhancement and is not implemented in this demo.
+
+## Future Enhancements
+
+- Connect to an approved ERP data source
+- Automate inquiry updates
+- Add AI-assisted inquiry classification
+- Generate follow-up recommendations
+- Add automated weekly CRM summaries
+
+## Author
+
+Developed as a CRM analytics and dashboard project using Python and Streamlit.
