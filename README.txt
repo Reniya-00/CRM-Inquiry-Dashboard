@@ -1,5 +1,10 @@
 # CRM Inquiry Dashboard
 
+
+## Live Demo
+
+[Open the CRM Inquiry Dashboard](https://crm-inquiry-dashboard-dkuadl4etmggytnq8z53nm.streamlit.app/)
+
 A data-driven CRM dashboard built with Python and Streamlit to monitor inquiry pipelines, quotation progress, proposals, meetings, and deal outcomes.
 
 ## Project Overview
